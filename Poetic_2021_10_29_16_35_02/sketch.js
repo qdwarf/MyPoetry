@@ -25,7 +25,7 @@ function draw() {
     impression[i].applyForce(fall);
 
   impression[i].update();
-  impression[i].display();
+  impression[i].show();
   impression[i].edges();
 
   }
@@ -50,7 +50,7 @@ function Impression(x, y, m) {
     this.acc.set(0,0);
   }
 
-  this.display = function() {
+  this.show = function() {
     fill(random(0,255),random(0,5),random(0,255),90);
     ellipse(this.pos.x, this.pos.y, this.mass*10, this.mass*10);
 

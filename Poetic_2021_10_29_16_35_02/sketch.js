@@ -11,9 +11,9 @@ function mousePressed() {
 }
 
 function draw() {
-  background(50,30);
+  background(255,30);
 
-  fill(255);
+  fill(0);
   noStroke();
   if(mouseIsPressed){
     ellipse (width/2,height/2,400);

@@ -38,9 +38,9 @@ function Impression(x, y, m) {
   this.mass = m;
 
   this.applyForce = function(force) {
-    let f = force.copy();
-    f.div(this.mass);
-    this.acc.add(f);
+    let her = force.copy();
+    her.div(this.mass);
+    this.acc.add(her);
   }
 
   this.update = function() {

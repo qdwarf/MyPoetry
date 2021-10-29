@@ -6,7 +6,7 @@ function setup() {
 }
 
 function mousePressed() {
-  let p = new Impression(mouseX, mouseY, random(2,4));
+  let p = new Impression(mouseX, mouseY, random(2,8));
   impression.push(p);
 }
 

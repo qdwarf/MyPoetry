@@ -3,6 +3,8 @@ let impression = [];
 function setup() {
   createCanvas(600, 600);
 
+</script> title
+
 }
 
 function mousePressed() {
